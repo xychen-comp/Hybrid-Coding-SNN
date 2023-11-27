@@ -6,7 +6,7 @@ CIFAR-10
 
 ## Requirement
 - Pytorch 1.11.0
-- [Spikingjelly < 0.0.0.14](https://github.com/fangwei123456/spikingjelly).
+- [Spikingjelly 0.0.0.12](https://github.com/fangwei123456/spikingjelly).
 
 ## Reducibility
 
