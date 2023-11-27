@@ -20,7 +20,7 @@ set_seed(1111)
 
 # Load datasets
 home_dir = current_dir # relative path
-data_dir = 'C:/dataset/raw' # Data dir
+data_dir = '' # Data dir
 ann_ckp_dir = os.path.join(home_dir, 'exp/cifar10/')
 snn_ckp_dir = os.path.join(home_dir, 'exp/cifar10/snn/')
 
