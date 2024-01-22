@@ -1,5 +1,5 @@
 # A Hybrid Neural Coding Approach for Pattern Recognition with Spiking Neural Networks 
-This repository contains the implementation of the paper A Hybrid Neural Coding Approach for Pattern Recognition with Spiking Neural Networks 
+This repository contains the implementation of the paper [A Hybrid Neural Coding Approach for Pattern Recognition with Spiking Neural Networks](https://ieeexplore.ieee.org/document/10347028/metrics#metrics). 
 
 ## Dataset
 CIFAR-10
