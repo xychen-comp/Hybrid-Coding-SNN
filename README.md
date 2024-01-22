@@ -4,13 +4,20 @@ This repository contains the implementation of the paper [A Hybrid Neural Coding
 ## Dataset
 CIFAR-10
 
-## Requirement
-- Pytorch 1.11.0
+## Dependencies
+- python 3.9.18
+- Pytorch 1.13.0
 - [Spikingjelly 0.0.0.12](https://github.com/fangwei123456/spikingjelly).
 
 ## Reducibility
 
-<ol>
-<li> Pre-train the ANN. For example, python ./CIFAR10/ANN_baseline/cifar10_vgg16_base_model.py </li>
-<li> Training Hybrid Coding Framework, python ./CIFAR10/Hybrid_coding/cifar10_main_vgg16.py</li>
- 
+* Pre-train the ANN.
+  ```
+  python ./CIFAR10/ANN_baseline/cifar10_vgg16_base_model.py
+  python ./CIFAR10/ANN_baseline/cifar10_resNet20_base_model.py
+  ```
+* Training Hybrid Coding framework. 
+  ```
+  python ./CIFAR10/Hybrid_coding/cifar10_main_vgg16.py
+  python ./CIFAR10/Hybrid_coding/cifar10_main_res20.py
+  ```
