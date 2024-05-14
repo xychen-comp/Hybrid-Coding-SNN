@@ -6,7 +6,7 @@ current_dir = os.path.dirname(os.path.dirname(os.getcwd()))
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'  # CUDA configuration
 
 from data.data_loader_cifar10 import build_data
-from models.resnet20 import ResNet20_mix
+from models.resnet20 import ResNet20
 from utils.classification import training, testing
 from utils.lib import dump_json, set_seed
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 	train_acc_history = []
 
 	# Models and training configuration 
-	model = ResNet20_mix(num_class=10)
+	model = ResNet20(num_class=10)
 	print(model)
 	model = model.to(device)
 	cudnn.benchmark = True	
