@@ -7,7 +7,7 @@ current_dir = os.path.dirname(os.path.dirname(os.getcwd()))
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'  # CUDA configuration
 
 from data.data_loader_cifar10 import build_data
-from models.vgg16 import VGG16_mix
+from models.vgg16 import VGG16
 from utils.classification import training, testing
 from utils.lib import dump_json, set_seed
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 	train_acc_history = []
 
 	# Models and training configuration
-	model = VGG16_mix(num_class=10)
+	model = VGG16(num_class=10)
 	model = model.to(device)
 	cudnn.benchmark = True
 	print(model)
