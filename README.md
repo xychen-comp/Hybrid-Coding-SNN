@@ -22,7 +22,7 @@ CIFAR-10
   python ./CIFAR10/Hybrid_coding/cifar10_main_res20.py
   ```
 
-## Citation: 
+## Citation 
 ```tex
 @article{chen2024hybrid,
   title={A hybrid neural coding approach for pattern recognition with spiking neural networks},
